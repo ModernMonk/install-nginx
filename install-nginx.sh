@@ -1,6 +1,5 @@
 #!bin/bash
 subscription-manager repos --enable rhel-server-rhscl-7-rpms
-yum udpate
 yum update
 yum provides nginx
 yum install nginx14
